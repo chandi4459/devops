@@ -1,3 +1,2 @@
-FROM ubuntu
-RUN apt-get install Apahe2
+FROM hshar/webapp
 ADD . /var/www/html
